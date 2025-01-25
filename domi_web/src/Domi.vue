@@ -18,4 +18,5 @@ const visible = ref(true);
   text-align: center;
   margin-top: 2rem;
 }
+
 </style>
