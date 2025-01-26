@@ -30,10 +30,10 @@ exports.AppModule = AppModule = __decorate([
                 host: 'localhost',
                 port: 1433,
                 username: 'sa',
-                password: '123',
+                password: '1234',
                 database: 'Domi',
                 entities: [room_entity_1.Room, house_entity_1.House, task_entity_1.Task],
-                synchronize: false,
+                synchronize: true,
                 extra: {
                     trustServerCertificate: true,
                 },

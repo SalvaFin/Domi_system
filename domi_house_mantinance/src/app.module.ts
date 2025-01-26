@@ -22,10 +22,10 @@ import { ScheduleModule } from '@nestjs/schedule';
       host: 'localhost',
       port: 1433,
       username: 'sa',
-      password: '123',
+      password: '1234',
       database: 'Domi',
       entities: [Room, House, Task], // Importa la entidad aquí
-      synchronize: false, // Crear tablas automáticamente en desarrollo
+      synchronize: true, // Crear tablas automáticamente en desarrollo
       extra: {
         trustServerCertificate: true,
       },
